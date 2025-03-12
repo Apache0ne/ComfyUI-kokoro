@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-jhj-kokoro-onnx"
+description = "kokoro-onnx (opensource TTS model) wrapper for ComfyUI."
+version = "1.0.3"
+license = {file = "LICENSE"}
+dependencies = ["onnxruntime-gpu", "kokoro-onnx"]
+
+[project.urls]
+Repository = "https://github.com/jhj0517/ComfyUI-jhj-Kokoro-Onnx.git"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "jhj0517"
+DisplayName = "ComfyUI jhj Kokoro Onnx"
+Icon = ""
