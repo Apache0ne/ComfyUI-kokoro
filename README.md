@@ -12,13 +12,13 @@ ComfyUI-Manager (rec)\
 Can be downloaded from ComfyUI-manager\
 IF using Windows Port version\
 ComfyUI Folder\
-```pip install yt_dlp```\
+```pip install onnxruntime-gpu kokoro-onnx```\
 Inside Custom_nodes Folder\
 ```git clone https://github.com/Apache0ne/ComfyUI-kokoro.git ```\
 IF using Matrix \
 Inside venv\Scripts\
 ```activate```\
-```pip install yt_dlp```\
+```pip install onnxruntime-gpu kokoro-onnx```\
 Inside Custom_nodes Folder\
 ```git clone https://github.com/Apache0ne/ComfyUI-kokoro.git ```
 ## Models
