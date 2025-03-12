@@ -1,5 +1,5 @@
 [project]
-name = "ComfyUI-kokoro"
+name = "ComfyUI-kokoro-TTS"
 description = "Kokoro is an open-weight TTS model with 82 million parameters."
 version = "1.0.0"
 license = {file = "LICENSE"}
@@ -11,5 +11,5 @@ Repository = "https://github.com/Apache0ne/ComfyUI-kokoro"
 
 [tool.comfy]
 PublisherId = "apacheone"
-DisplayName = "ComfyUI-kokoro"
+DisplayName = "ComfyUI-kokoro-TTS"
 Icon = ""
