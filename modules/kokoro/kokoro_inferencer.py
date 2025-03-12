@@ -37,7 +37,7 @@ class KokoroPipeline:
         # Device ( GPU or CPU is automatically set by kokoro-onnx )
         self.model = Kokoro(model_path, voice_pack_path)
         self.available_voices = self.model.get_voices()
-        self.available_langs = self.model.get_languages()
+        #self.available_langs = self.model.get_languages()
 
     def predict(self,
                 text: str,
@@ -50,12 +50,16 @@ class KokoroPipeline:
         if self.model is None:
             raise ValueError("Load model first with `load_model()`")
 
+        # Warn if phonemes is provided, since it's not used
+        if phonemes is not None:
+            print("Warning: phonemes are provided but not supported by Kokoro.create in this version.")
+
+        # Call create without passing phonemes
         samples, sample_rate = self.model.create(
             text=text,
             voice=voice,
             lang=lang,
             speed=speed,
-            phonemes=phonemes,
             trim=trim
         )
         return samples, sample_rate

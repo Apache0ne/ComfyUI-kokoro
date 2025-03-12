@@ -103,5 +103,4 @@ class KokoroAudioGenerator:
             trim=trim
         )
         samples = numpy_to_tensor(samples)
-
         return ({"waveform": samples, "sample_rate": sample_rate},)
