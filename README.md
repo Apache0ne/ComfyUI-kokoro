@@ -10,7 +10,7 @@ Models are automatically downloaded to `ComfyUI\models\kokoro-onnx` directory.
 Latest version is v1.0
 
 Right now it uses:
-- [kokoro-v1.0.onnx](https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx))
+- [kokoro-v1.0.onnx](https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx)
 - [voices.bin](https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin)
 
 should auto download first run in workflow: IF not
